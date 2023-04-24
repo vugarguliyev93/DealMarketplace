@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 23px 23px 0;
+    margin-bottom: 30px;
+}
+
+.site {
+    display: flex;
+    align-items: center;
+}
+
+.site-lang {
+    margin-right: 20px;
+    /* border: 1px; */
+    background: rgba(0, 0, 0, 0.04);
+    border-radius: 11px;
+    width: 61px;
+    height: 25px;
+    text-align: center;
+}
+
+.svg {
+    display: inline-block;
+    padding: 2px;
+    margin-left: 5px;
+}
+
+.profile {
+    text-align: center;
+    padding-top: 2px;
+    background: black;
+    width: 159px;
+    border-radius: 32px;
+    height: 32px;
+    margin-top: 5px;
+    margin-left: 25px;
+}
+
+.profile>p {
+    display: inline-block;
+    color: white;
+    margin-top: 3px;
+}
+
+.stretch {
+    width: 1px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.12);
+    margin-right: 25px;
+}
+
+
+.trade {
+    width: 18%;
+    margin: 0px;
+    display: inline-block;
+    padding: 25px;
+
+}
+
+.components {
+    display: flex;
+    align-items: center;
+    padding: 0px 16px;
+    gap: 10px;
+    width: 224px;
+    height: 56px;
+    border-radius: 12px;
+    margin-top: 16px;
+}
+
+.components>p {
+    width: 158px;
+    height: 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1px;
+    color: rgba(0, 0, 0, 0.6);
+    display: inline-block;
+
+}
+
+.logtrade {
+    margin-bottom: 35px;
+
+}
+
+.title {
+    font-weight: 900;
+    font-size: 36px;
+    font-family: roboto
+}
+
+.finance {
+    float: right;
+    width: 82%;
+    background: #F5F7FA;
+}
+
+.finance>p {
+    width: 745px;
+    height: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin: 25px;
+    ;
+
+}
+
+
+
+.vector {
+    margin-left: 70px;
+}
+
+.createbtn {
+    background: linear-gradient(215.45deg, #0053D3 21.28%, #81AAEA 87.77%);
+    box-shadow: 0px 12px 24px rgba(1, 84, 211, 0.24);
+    border: none;
+    ;
+    padding: 15px 32px;
+    width: 224px;
+    height: 56px;
+    border-radius: 12px;
+
+}
+
+.createbtn>p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    align-items: center;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 40px;
+    color: #000000;
+    margin-left: 25px;
+}
+
+.first-obj p {
+    width: 153px;
+    height: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.25px;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+
+.first-obj {
+    display: flex;
+    align-items: center;
+    padding: 24px;
+    gap: 1px;
+    width: 31%;
+    height: 120px;
+    box-shadow: 0px 24px 24px rgba(0, 0, 0, 0.04);
+    border-radius: 12px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    float: left;
+    margin: 0px 0px 25px 25px;
+}
+
+.image-contract {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 72px;
+    height: 72px;
+    margin-right: 25px;
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 12px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.number {
+    color: white;
+    border: black;
+    width: 21px;
+    height: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+}
+
+.company {
+    float: left;
+    padding: 0px 0px 36px;
+    gap: 36px;
+    width: 63.5%;
+    height: 414px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 24px rgb(0 0 0 / 4%);
+    border-radius: 12px;
+    margin-left: 27px;
+
+}
+
+.table {
+    display: flex;
+    justify-content: space-between;
+}
+
+.invoices {
+    margin: 30px;
+}
+
+.invoices>p {
+    display: inline-block;
+    width: 138px;
+    height: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.day {
+    margin: 21px;
+    padding: 4px;
+    gap: 30px;
+    width: 258px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.num>p {
+    display: inline-block;
+    margin-bottom: 0px;
+    width: 22px;
+    height: 20px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.6);
+
+
+}
+
+.num {
+    display: flex;
+    gap: 30px;
+    margin-right: 30px;
+}
+
+
+.totalDeals {
+    display: inline-block;
+    padding: 36px 0px;
+    margin-left: 30px;
+    width: 31%;
+    height: 414px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 24px rgba(0, 0, 0, 0.04);
+    border-radius: 12px;
+
+}
+
+.circle {
+    width: 210px;
+    height: 210px;
+    border: solid 20px #f6f6f6;
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 25%;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.circleNum {
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 40px;
+}
+
+.titles1 {
+    width: 16px;
+    height: 16px;
+    background: linear-gradient(215.45deg, #0053D3 21.28%, #81AAEA 87.77%);
+    border-radius: 12px;
+    margin: 0px 35px 25px 20px;
+}
+
+.titles2 {
+    width: 16px;
+    height: 16px;
+    background: linear-gradient(215.45deg, #B60089 21.28%, rgba(255, 0, 0, 0.5) 87.77%);
+    border-radius: 12px;
+    margin: 0px 35px 25px 20px;
+}
+
+.titles3 {
+
+    width: 16px;
+    height: 16px;
+    background: linear-gradient(215.45deg, #00B2AF 21.28%, rgba(40, 181, 187, 0.5) 87.77%);
+    border-radius: 12px;
+    margin: 0px 35px 25px 20px;
+}
+
+.subtitles {
+    display: flex;
+    justify-content: center;
+}
+
+.sign>p {
+    margin-bottom: 22px;
+    width: 117px;
+    height: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.footer {
+    display: flex;
+    border-radius: 12px;
+    width: 96.5%;
+    height: 644px;
+    background: #FFFFFF;
+    margin: 25px 0px 0px 25px;
+    flex-direction: column;
+}
+
+.requestDeals {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 25px;
+    height: 13%;
+}
+
+.requestDeals>p {
+    width: 185px;
+    height: 32px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 45px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid;
+    width: 240px;
+    height: 44px;
+    border-radius: 12px;
+    background-color: rgba(0, 0, 0, 0.04);
+    gap: 5px~;
+}
+
+.stretch2 {
+    height: 1px;
+    background: #dce3ed;
+}
+
+.noDeals {
+    flex-direction: column;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.contain>p {
+    margin-top: 10px;
+    width: 307px;
+    height: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 40px;
+}
+
+.subtitle>p {
+    width: 428px;
+    height: 26px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+.endBtn {
+    padding: 6px 24px;
+    width: 200px;
+    height: 56px;
+    background: linear-gradient(215.45deg, #0053D3 21.28%, #81AAEA 87.77%);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.25px;
+}
+
+
+.endBtn>p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}

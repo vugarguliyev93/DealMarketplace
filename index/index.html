@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id= "navBar" class="trade">
+      <div class="logtrade">
+        <img class="logo" src="icons/logo.svg" />
+        <img class="tradeleaf" src="icons/tradeleaf.svg" />
+        <img  style = "cursor:pointer" onclick= "closeNav()" class="vector" src="icons/vector1.svg" />
+      </div>
+
+      <button class="createbtn">
+        <p>create invoice</p>
+      </button>
+      <div class="components">
+        <img src="icons/home.svg" />
+        <p>Deal Marketplace</p>
+      </div>
+      <div class="components">
+        <img src="icons/drivefile.svg" />
+        <p>Document manager</p>
+      </div>
+      <div class="components">
+        <img src="icons/settings.svg" />
+        <p>Settings</p>
+      </div>
+      <div class="components">
+        <img src="icons/support.svg" />
+        <p>Support center</p>
+      </div>
+    </div>
+
+    <div id= "mainMenu"class="finance">
+      
+      <div class="header">
+        
+        <div id= "header" class="title">
+          <div id="openNav" class="openNavbar" style="display:none;font-size:30px;cursor:pointer" onclick="openNav()">
+            <span >&#9776;</span>
+          
+          </div>
+          <p>Deal Marketplace</p>
+        </div>
+
+        <div class="site">
+          <div class="site-lang">
+            En
+            <div class="svg">
+              <svg
+                width="9"
+                height="5"
+                viewBox="0 0 9 5"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M0.75 0.5L4.5 4.25L8.25 0.5H0.75Z"
+                  fill="black"
+                  fill-opacity="0.6"
+                />
+              </svg>
+            </div>
+          </div>
+          <div class="stretch"></div>
+
+          <div>
+            <img src="icons/social.svg" />
+          </div>
+          <div class="profile">
+            <img src="icons/Vector.svg" />
+            <p>Name Surname</p>
+            <div class="svg">
+              <svg
+                width="9"
+                height="5"
+                viewBox="0 0 9 5"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M0.75 0.5L4.5 4.25L8.25 0.5H0.75Z"
+                  fill="white"
+                  fill-opacity="0.6"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+<div class="menuu">
+      <div class="compon">
+        <div
+          class="first-obj"
+          id="first"
+          style="
+            background: linear-gradient(
+              215.45deg,
+              #0053d3 21.28%,
+              #81aaea 87.77%
+            );
+          "
+        >
+          <div class="image-contract">
+            <img src="icons/contract.svg" width="36px" />
+          </div>
+          <div>
+            <div class="number">0</div>
+            <p>Total Pending signature</p>
+          </div>
+        </div>
+
+        <div
+          class="first-obj"
+          id="second"
+          style="
+            background: linear-gradient(
+              215.45deg,
+              #b60089 21.28%,
+              rgba(255, 0, 0, 0.5) 87.77%
+            );
+          "
+        >
+          <div class="image-contract">
+            <img src="icons/opened-deals-icon.svg" width="36px" />
+          </div>
+          <div>
+            <div class="number">0</div>
+            <p>Total Opened Deals</p>
+          </div>
+        </div>
+
+        <div
+          class="first-obj"
+          id="third"
+          style="
+            background: linear-gradient(
+              215.45deg,
+              #00b2af 21.28%,
+              rgba(40, 181, 187, 0.5) 87.77%
+            );
+          "
+        >
+          <div class="image-contract">
+            <img src="icons/clipboard.svg" width="36px" />
+          </div>
+          <div>
+            <div class="number">0</div>
+            <p>Total Closed Deals</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="company">
+          <div class="table">
+           <div class="invoices">
+            <p>invoices funded</p>
+            <p>deposits</p>
+           </div> 
+            <div class="day">
+              <div class="num">
+                <p>1W</p>
+                <p>1M</p>
+                <p>1Y</p>
+                <p>TOTAL</p>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+         <div class="totalDeals">
+            <div class="circle">
+                <div class="circleNum">
+                  0
+                  
+                </div>
+                <p>Total Deals</p>
+
+            </div>
+            <div class="subtitles">
+              <div class="titleGroup">
+                <div class="titles1"></div>
+                <div class="titles2"></div>
+                <div class="titles3"></div>
+              </div>
+             
+              <div class="sign"><p>Pending signature</p><p>Opened Deals</p>
+                <p>Closed Deals</p></div>
+              
+             
+             
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="footer">
+          <div class="requestDeals">
+              <p>Requested Deals</p>
+              <div class="search">
+                <img src="icons/search.svg">
+                <input type="search" placeholder="Search" style="border:none;background-color: rgb(218 161 161 / 0%)";
+                
+            }>
+              </div>
+          </div>
+          <div class="stretch2"></div>
+          <div class="noDeals">
+              <img src="icons/union.svg">
+              <div class="contain">
+                  <p>You No Have Deals</p>
+              </div>
+              <div class="subtitle">
+                <p>Try to create your own offer to start.</p>
+            </div>
+            <button class="endBtn">
+                <p>create offer</p>
+            </button>
+          </div>
+
+        </div>
+      </div>
+      <script src="script.js"></script>
+
+  </body>
+</html>
